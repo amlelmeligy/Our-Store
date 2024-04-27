@@ -66,7 +66,7 @@ class information extends StatelessWidget {
             Container(
                 padding: EdgeInsets.only(right: 10, left: 10),
                 child: Text(
-                    "Exercise regularly: Physical activity is crucial for managing ADHD symptoms. Aim for at least 30 minutes of moderate-intensity exercise most days of the week."
+                    "Exercise regularly: Physical activity is crucial for managing symptoms. Aim for at least 30 minutes of moderate-intensity exercise most days of the week."
                     "Fidget toys: Channel excess energy into a healthy outlet like doodling, fidget spinners, or chewy necklaces."
                     "Mindfulness and meditation: Practices like mindfulness and meditation can help increase self-awareness, improve focus, and manage stress.")),
             Container(
@@ -83,9 +83,9 @@ class information extends StatelessWidget {
                 padding: EdgeInsets.only(right: 10, left: 10),
                 child: Text(
                     "Get enough sleep: When you're well-rested, you're better able to focus and regulate your emotions. Aim for 7-8 hours of sleep each night."
-                    "Eat a healthy diet: Limit sugary foods and processed snacks, which can worsen ADHD symptoms. Focus on whole grains, fruits, vegetables, and lean protein."
+                    "Eat a healthy diet: Limit sugary foods and processed snacks, which can worsen symptoms. Focus on whole grains, fruits, vegetables, and lean protein."
                     "Stay hydrated: Dehydration can negatively impact mood and focus. Drink plenty of water throughout the day."
-                    "Seek support: Don't hesitate to reach out to therapists, coaches, or support groups specializing in ADHD. They can provide valuable guidance and strategies."
+                    "Seek support: Don't hesitate to reach out to therapists, coaches, or support groups specializing in. They can provide valuable guidance and strategies."
                     "Remember, everyone with ADHD is different, and what works for one person may not work for another. Experiment with different tips and find what helps you manage your symptoms and thrive."
                     "Here are some additional resources that you may find helpful:"
                     "ADDitude Magazine: https://www.additudemag.com/")),
