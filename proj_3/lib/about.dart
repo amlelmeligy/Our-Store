@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:proj_3/home.dart';
-import 'package:proj_3/about.dart';
 
 class about extends StatefulWidget {
   final data;

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:proj_3/changePass.dart';
 import 'package:proj_3/editProfile.dart';
+import 'package:proj_3/information.dart';
 import 'package:proj_3/payment.dart';
 
 class profile extends StatefulWidget {
@@ -171,11 +172,11 @@ class _profileState extends State<profile> {
             ),
             ////////////////////////////////////////////////////////////////////////////
             InkWell(
-              // onTap: () {
-              //   Navigator.of(context).push(
-              //     MaterialPageRoute(builder: (context) => appointment()),
-              //   );
-              // },
+              onTap: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => information()),
+                );
+              },
               child: Container(
                 margin: EdgeInsets.all(5),
                 padding: EdgeInsets.all(5),
