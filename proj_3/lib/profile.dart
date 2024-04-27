@@ -212,11 +212,17 @@ class _profileState extends State<profile> {
             ),
             ////////////////////////////////////////////////////////////////////////////
             InkWell(
-              // onTap: () {
-              //   Navigator.of(context).push(
-              //     MaterialPageRoute(builder: (context) => appointment()),
-              //   );
-              // },
+              onTap: () => showDialog(
+                  context: context,
+                  builder: (context) {
+                    return Center(
+                      child: CircularProgressIndicator(
+                        strokeAlign: 6,
+                        backgroundColor: Colors.grey,
+                        strokeWidth: 5,
+                      ),
+                    );
+                  }),
               child: Container(
                 margin: EdgeInsets.all(5),
                 padding: EdgeInsets.all(5),
